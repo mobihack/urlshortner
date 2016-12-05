@@ -6,34 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ProjectAPI - Free URL Shortner Service</title>
 
-  <link rel="stylesheet" href="/new/cms//static/css/font-awesome.min.css" />
-
-  <style type="text/css">@font-face{
-    font-family:'FontAwesome';
-    src:url('/new/cms//static/fonts/fontawesome-webfont.eot?v=4.6.3');
-    src:url('/new/cms//static/fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'),
-    url('/new/cms//static/fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'),
-    url('/new/cms//static/fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'),
-    url('/new/cms//static/fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'),
-    url('/new/cms//static/fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
-    font-weight:normal;
-    font-style:normal
-  }
-  #search input[type="text"] {
-    background: url(/new/cms//static/css/img/search-white.png) no-repeat 10px 6px;
-  }
-  }
-  </style>
-
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" type="text/css" href="./css/bulma.css">
   <link rel="stylesheet" type="text/css" href="./css/base.css">
 </head>
 <body>
   <nav class="nav has-shadow" id="top">
     <div class="container">
-      <div class="nav-left">
+      <div class="nav-left" style="padding-left: 1em">
         <a class="nav-item" href="../index.html">
-          <img style="color: black; font-weight: bold;height: 100%" src="./images/projectapi.png" alt="ProjectAPI">
+          <span class="fa fa-link" style="color:#00d1b2"></span>&nbsp;<img style="color: black; font-weight: bold;height: 100%" src="./images/projectapi.png" alt="ProjectAPI">
         </a>
       </div>
       <span class="nav-toggle">
@@ -64,12 +46,40 @@
           Free <span style="color: #00d1b2">&#8728;</span> Fast <span style="color: #00d1b2">&#8728;</span> Simple
         </h2>
         <br>
-        <p class="is-10 control has-addons has-addons-centered  has-text-centered">
+        <p class="is-10 has-text-centered">
           <input class="input is-expanded is-large" placeholder="Enter your address here!" type="text">
-          <button class="button is-large is-danger is-outlined">
-            OK
+          <br>
+          <button style="margin-top: 0.5em" class="button is-large is-danger is-outlined">
+            SHORTEN URL
           </button>
         </p>
+      </div>
+      <br>
+      <br>
+      <div class="column is-8 is-offset-2 is-12-mobile is-offset-0-mobile has-text-centered">
+      <div class="columns">
+
+        <div class="column">
+          <span class="icon is-circle-icon" style="background: rgba(50,115,220,0.2);">
+            <i class="fa fa-link" style="color: #3273dc;"></i>
+          </span><br><br>
+          Shorten your URL so it’s ready to be shared everywhere
+        </div>
+
+        <div class="column">
+          <span class="icon is-circle-icon" style="background: rgba(35,209,96,0.2);">
+            <i class="fa fa-area-chart" style="color: #23d160;"></i>
+          </span><br><br>
+          Analytics help you know where your clicks are coming from
+        </div>
+
+        <div class="column">
+          <span class="icon is-circle-icon" style="background: rgba(255,56,96,0.2);">
+            <i class="fa  fa-users" style="color: #ff3860;"></i>
+          </span><br><br>
+          Understand and visualize your audience
+        </div>
+
       </div>
     </div>
   </section>
